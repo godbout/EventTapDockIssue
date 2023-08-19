@@ -11,6 +11,8 @@
 		9197C1522A90A6F6006C8B4B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197C1512A90A6F6006C8B4B /* ContentView.swift */; };
 		9197C1542A90A6FA006C8B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197C1532A90A6FA006C8B4B /* Assets.xcassets */; };
 		9197C1582A90A6FA006C8B4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9197C1572A90A6FA006C8B4B /* Preview Assets.xcassets */; };
+		9197C15F2A90A751006C8B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197C15E2A90A751006C8B4B /* AppDelegate.swift */; };
+		9197C1612A90A8F4006C8B4B /* EventTapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9197C1602A90A8F4006C8B4B /* EventTapController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		9197C1532A90A6FA006C8B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9197C1552A90A6FA006C8B4B /* EventTapDockIssue.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EventTapDockIssue.entitlements; sourceTree = "<group>"; };
 		9197C1572A90A6FA006C8B4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9197C15E2A90A751006C8B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9197C1602A90A8F4006C8B4B /* EventTapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTapController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			isa = PBXGroup;
 			children = (
 				9197C14F2A90A6F6006C8B4B /* EventTapDockIssueApp.swift */,
+				9197C15E2A90A751006C8B4B /* AppDelegate.swift */,
+				9197C1602A90A8F4006C8B4B /* EventTapController.swift */,
 				9197C1512A90A6F6006C8B4B /* ContentView.swift */,
 				9197C1532A90A6FA006C8B4B /* Assets.xcassets */,
 				9197C1552A90A6FA006C8B4B /* EventTapDockIssue.entitlements */,
@@ -139,7 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9197C15F2A90A751006C8B4B /* AppDelegate.swift in Sources */,
 				9197C1522A90A6F6006C8B4B /* ContentView.swift in Sources */,
+				9197C1612A90A8F4006C8B4B /* EventTapController.swift in Sources */,
 				9197C1502A90A6F6006C8B4B /* EventTapDockIssueApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
